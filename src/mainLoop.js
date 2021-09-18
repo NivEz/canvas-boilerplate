@@ -1,4 +1,4 @@
-import Rectangle from "./objects/rectangle";
+
 
 export default class MainLoop {
     constructor(width, height) {
