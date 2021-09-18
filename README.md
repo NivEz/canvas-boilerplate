@@ -9,7 +9,7 @@ Lightweight HTML5 canvas setup for simple animations and game development.
 ## Setting up the project:
 1. Clone the repository:
 ```
-git clone https://github.com/NivEz/canvas-boilerplate.git
+git clone https://github.com/NivEz/canvas-boilerplate.git PROJECT_NAME_HERE
 ```
 
 2. Install dependencies:
