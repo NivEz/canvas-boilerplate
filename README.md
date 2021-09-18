@@ -1,5 +1,5 @@
 # HTML5 Canvas Boilerplate
-Lightweight HTML5 canvas setup for simple animations and game development.
+Lightweight HTML5 canvas setup for a simple animations and game development.
 
 * This boilerplate implements pixels per second velocity calculation according to the user's monitor.
 * It also implements responsiveness canvas when the screen is being resized.
