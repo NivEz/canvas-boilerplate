@@ -2,7 +2,7 @@
 Lightweight HTML5 canvas setup for simple animations and game development.
 
 * This boilerplate implements pixels per second velocity calculation according to the user's monitor.
-* It also implements responsiveness canvas when the screen is being resized.
+* It also implements responsive canvas when the screen is being resized.
 * You can change the webpack configurations in the webpack.config.js file.
 
 
