@@ -1,3 +1,4 @@
+import Circle from "./objects/circle";
 
 
 export default class MainLoop {
@@ -14,6 +15,7 @@ export default class MainLoop {
         this.width = width
         this.height = height
         // this.setupObjectsArr()
+
     }
 
 

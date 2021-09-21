@@ -9,12 +9,16 @@ export default class Rectangle {
     }
 
     update(deltaTime) {
-        // this.position.x += this.velocity.x * (deltaTime / 1000)
-        // this.position.y += this.velocity.y * (deltaTime / 1000)
+        // this.move(deltaTime)
     }
 
     draw(ctx) {
         ctx.fillStyle = this.color
         ctx.fillRect(this.position.x, this.position.y, this.width, this.height)
+    }
+
+    move(deltaTime) {
+        // this.position.x += this.velocity.x * (deltaTime / 1000)
+        // this.position.y += this.velocity.y * (deltaTime / 1000)
     }
 }
