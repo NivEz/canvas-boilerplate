@@ -6,9 +6,10 @@ export default class Circle {
          * an argument.
          * @name physics {
          *     velocity: {x: float, y: float},
-         *     gravity: float,
-         *     elasticity: float,
-         *     friction: float
+         *     gravity: float - positive will accelerate down and negative up.
+         *     elasticity: float - 0 will set no bounce (loses all velocity), 1 won't gain or lose any velocity and above 1 will gain velocity.
+         *     friction: float - "air friction" of constant x velocity lose - 0 will set no friction, 1 will set maximum amount of friction,
+         *     recommended not over 0.05.
          * }
          */
         this.position = position
