@@ -1,4 +1,3 @@
-import Circle from "./objects/circle";
 
 
 export default class MainLoop {
